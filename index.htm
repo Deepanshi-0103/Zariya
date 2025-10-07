@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zariya - Dignity Through Employment</title>
+<link rel="stylesheet" href="style.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome for Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- GSAP CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+        <!--navbar-->
+        <div class="navbar-wrapper">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand"  href="#">
+                    <img src="logo.png" height="70px" width="100%" border-radius="10px" class="image-fluid" alt="logo">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                     <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fa-solid fa-bars-staggered" style="color: aliceblue;"></i>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav menu-navbar-nav">
+                      <a class="nav-link" aria-current="page" href="#home">Home</a>
+                      <a class="nav-link" href="#About">About</a>
+                      <a class="nav-link" href="#Services">Services</a>
+                      <a class="nav-link" href="#contact-section">Contact</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+    
+        </div>
+          <!--navbar section exit-->
+    
+    
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Zariya – Bridging the Gap Between Begging & Employment</h1>
+      <p class="lead mt-3">A platform to turn street struggle into dignity through jobs. Empower lives, create impact.</p>
+      <a href="#register" class="btn btn-zariya mt-4">Get Started</a>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="section pb-5" id="home">
+    <div class="container">
+      <div class="text-center pt-4 pb-3">
+        <h2 class="fw-bold">Work that transform</h2>
+        <p class="text-muted">Simple and effective process for everyone involved.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="role-card h-100">
+            <h4>Helpers</h4>
+            <p>Register beggars and connect them to nearby jobs through the app. Earn ₹100 per successful worker.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="role-card h-100">
+
+            <h4>Companies</h4>
+            <p>Post simple jobs like cleaning or loading. Get workers and receive a CSR certificate for social impact.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="role-card h-100">
+            <h4> Skilled Workers</h4>
+            <p>Skilled individuals (cooks, tailors, drivers) can be hired by homes for services – like an UrbanClap with heart.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="app-demo py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold text-dark">How the Zariya App Works</h2>
+        <p class="text-muted">Visual walkthrough of the app experience for each role</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src=https://www.shutterstock.com/image-photo/choice-profession-other-areas-life-600nw-2249954225.jpg class="card-img-top" alt="Role Selection">
+            <div class="card-body">
+              <h5 class="card-title">1. Choose Your Role</h5>
+              <p class="card-text">Select whether you're a job seeker, helper, skilled worker, or company.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="https://www.shutterstock.com/image-photo/personal-information-shop-online-filling-600nw-1555297898.jpg" class="card-img-top" alt="Fill Details">
+            <div class="card-body">
+              <h5 class="card-title">2. Fill Basic Details</h5>
+              <p class="card-text">Provide essential information to help us connect you better.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="https://images.pexels.com/photos/4963433/pexels-photo-4963433.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Get Matched">
+            <div class="card-body">
+              <h5 class="card-title">3. Get Matched</h5>
+              <p class="card-text">Zariya connects you with the right opportunity based on your role and location.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Registration Options -->
+  <section class="who" id="register">
+    <div class="container">
+      <div class="text-center mb-3">
+        <h2 class="fw-bold">Choose Your Role</h2>
+        <p class="text-muted">Who are you signing up as?</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="role-card h-100 text-center">
+             <i class="fas fa-hand-holding-usd icon"></i>
+            <h5>Helper</h5>
+            <p>Become a bridge between street beggars and job opportunities. Help people transform their lives.</p>
+            <button class="btn btn-zariya1"  onclick="openModal('Helper')">Register as Helper</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="role-card h-100 text-center">
+        <i class="fas fa-building icon"></i>
+
+            <h5>Company</h5>
+            <p>Post unskilled jobs, find reliable workers, and earn social responsibility certificates.</p>
+            <button class=" btn btn-zariya1"  onclick="openModal('Company')">Register as Company</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="role-card h-100 text-center">
+            <i class="fas fa-tools icon"></i>
+            <h5>Skilled Worker</h5>
+            <p>If you're a cook, driver, tailor, or similar – get hired for services in homes near you.</p>
+            <button  class=" btn btn-zariya1 " onclick="openModal('Skilled Worker')">Register as Worker</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="registerModalLabel">Register</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="roleType" class="form-label">Role</label>
+            <input type="text" class="form-control" id="roleType" readonly>
+          </div>
+          <div class="mb-3">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your full name">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email / Phone</label>
+            <input type="text" class="form-control" id="email" placeholder="Enter email or phone">
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Create Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter password">
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Register</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <section class="revenue-section" id="About">
+    <div class="top">
+    <div class="text">
+  <h2 class="section-title fw-bold">How Zariya Earns</h2>
+  <p class="section-subtitle">Transparent and impactful model that sustains social good.</p>
+  </div>
+  <div class="image">
+    <img src="think.jpg" alt="think">
+  </div>
+  </div>
+  <div class="revenue-cards col-md-8">
+    <div class="rev-card" id="card1">
+      <div class="overlay">
+      <i class="fas fa-building"></i>
+      <h3>B2B Hiring Fees</h3>
+      <p>Companies pay us for verified workers. Bulk hiring includes custom subscription plans.</p>
+    </div>
+    </div>
+
+    <div class="rev-card" id="card2">
+            <div class="overlay">
+      <i class="fas fa-hands-helping"></i>
+      <h3>Skilled Service Commission</h3>
+      <p>We earn 10–20% commission from jobs completed by skilled workers (e.g., tailors, plumbers).</p>
+    </div>
+    </div>
+    <div class="rev-card" id="card3">
+            <div class="overlay">
+      <i class="fas fa-user-plus"></i>
+      <h3>Helper Incentives</h3>
+      <p>Helpers earn ₹100 for every successful worker-company connection they make.</p>
+    </div>
+</div>
+    <div class="rev-card" id="card4">
+            <div class="overlay">
+      <i class="fas fa-handshake"></i>
+      <h3>NGO & Govt Tie-Ups</h3>
+      <p>Future plans include collaborations with NGOs and government schemes for impact at scale.</p>
+    </div>
+    </div>
+  </div>
+
+</section>
+
+  <!--mockup -->
+  <section class="zariya-features py-5 pb-5" id="Services">
+  <div class="text-center mb-5">
+    <h2 class="fw-bold display-5">What’s waiting for you on the app?</h2>
+    <p class="text-muted">Zariya connects people, empowers lives & builds meaningful jobs</p>
+  </div>
+
+  <div class="position-relative feature-wrapper">
+    <!-- Feature Cards -->
+    <div class="feature-card top-left">
+            <img src="SKillssssss icon.jpg" alt="Skilled" />
+      <p>Skilled Services</p>
+
+    </div>
+    <div class="feature-card top-right">
+      <img src="posted jobs.jpg" alt="Post Jobs" />
+      <p>Post Jobs</p>
+    </div>
+    <div class="feature-card mid-left">
+      <img src="Helpers icon.jpg" alt="Helpers" />
+      <p>Join as Helper</p>
+    </div>
+    <div class="feature-card mid-right">
+            <img src="Workers icon.jpg" alt="Hire" />
+      <p>Hire Workers</p>
+
+    </div>
+    <div class="feature-card bottom-left">
+      <img src="NGO icon.jpg" alt="NGO" />
+      <p>NGO Tie-ups</p>
+    </div>
+    <div class="feature-card bottom-right">
+      <img src="Training icon.jpg" alt="Training" />
+      <p>Training</p>
+    </div>
+
+    <!-- Mobile Mockup Center -->
+    <div class="phone-mockup">
+      <img src="draft 2.png" alt="App Preview" />
+    </div>
+  </div>
+</section>
+
+<!--contact section-->
+<section class="contact-section container-fluid" id="contact-section">
+      <div class="details">
+      <div class="row g-5" >
+        <div class="col-md-4">
+          <div class="card-custom text-center h-100 p-3 " style="background-color: white;">
+<i class="fa-solid fa-phone display-6" style="color:#005cbe"></i>   
+       <h5 class="mt-3">PHONE NUMBER</h5>
+   <p>+91 98765 43210</p>  
+   </div>
+        </div>
+                <div class="col-md-4">
+          <div class="card-custom text-center h-100 p-3" style="background-color: white;">
+<i class="fa-solid fa-envelope display-6" style="color:#005cbe"></i>
+          <h5 class="mt-3">EMAIL</h5>
+          <p> <a href="mailto:hello@zariya.org">hello@zariya.org</a></p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-custom text-center h-100 p-3" style="background-color: white;">
+<i class="fa-solid fa-headset display-6" style="color: #005cbe;"></i>
+          <h5 class="mt-3">SUPPORT</h5>
+<p>Mon–Sat, 10 AM – 6 PM</p>
+          </div>
+        </div>
+
+      </div>
+
+      </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8 p-5 contact-card">
+
+        
+        <h2 style="text-align: center;">Get in Touch</h2>
+        <p class="text-muted">Have questions, feedback, or want to collaborate? We’d love to hear from you!</p>
+        
+        <form>
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="Your Name">
+            </div>
+            <div class="col-md-6">
+              <input type="email" class="form-control" placeholder="Your Email">
+            </div>
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Subject">
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary px-4">Send Message</button>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+    <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <p class="mb-0">&copy; 2025 Zariya. All rights reserved.</p>
+  </footer>
+<script src="script.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- GSAP Scroll Animations -->
+   <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js"
+  integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+  ></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js"
+  integrity="sha512-IHDCHrefnBT3vOCsvdkMvJF/MCPz/nBauQLzJkupa4Gn4tYg5a6VGyzIrjo6QAUy3We5HFOZUlkUpP0dkgE60A=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script>
+//     gsap.registerPlugin(ScrollTrigger);
+// gsap.to(".navbar",{
+//     backgroundColor:"#F1C6C1",
+//     duration: 1,
+//     height:"100px",
+//     scrollTrigger:{
+//         trigger:"#nav",
+//         scroller:"body",
+//         // markers:"true",
+//         start: "top -10%",
+//         end: "top -11%",
+//         scrub: 3   /*for smoothness */
+//     }
+// })
+
+    gsap.from(".hero h1", {
+      opacity: 0,
+      y: -50,
+      duration: 1
+    });
+
+    gsap.from(".hero p", {
+      opacity: 0,
+      y: 30,
+      delay: 0.3,
+      duration: 1
+    });
+      gsap.registerPlugin(ScrollTrigger);
+
+   gsap.from(".role-card", {
+      scrollTrigger: {
+        trigger: ".role-card",
+        start: "top 80%",
+        toggleActions: "play none none none"
+      },
+      opacity: 0,
+      duration: 0.6,
+      stagger: 0.2
+    });
+
+
+    gsap.from(".feature-card", {
+  opacity: 0,
+  scale: 0.7,
+  stagger: 0.2,
+  duration: 1,
+  scrollTrigger: {
+    trigger: ".zariya-features",
+    start: "top 80%",
+  }
+});
+
+    
+    gsap.from(".contact-card", {
+      scrollTrigger: {
+        trigger: ".contact-card",
+        start: "top 80%"
+      },
+      opacity: 0,
+      y: 60,
+      duration: 1
+    });
+     gsap.from(".rev-card", {
+    scrollTrigger: {
+      trigger: ".revenue-cards",
+      start: "top 80%",
+    },
+    opacity: 1,
+    y: 50,
+    duration: 0.6,
+    // stagger: 0.4,
+    ease: "power2.out"
+  });
+  </script>
+</body>
+
+</html>

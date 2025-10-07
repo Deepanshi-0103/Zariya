@@ -1,0 +1,333 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #f9f9f9; */
+    scroll-behavior: smooth;
+      background: linear-gradient(120deg, #fff5f5, #ffffff);
+
+  }
+.navbar-wrapper .navbar{
+    position: fixed;
+    justify-content: center;
+    background-color:transparent;
+    top:0;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    width:100%;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    z-index: 9999;
+    }  
+    .navbar-wrapper .navbar img{
+        border-radius: 36px;
+    }
+ .navbar.slidedown{
+        position: fixed;
+        background-color: white;
+        animation: slidedown .4s forwards;
+    }
+    .navbar.slidedown .nav-link{
+        color: rgb(12, 12, 60);
+    }
+    @keyframes slidedown{
+        from{
+            top:-250px;
+        }
+        to{
+            top:0;
+            box-shadow: 0 2px 8px 0 rgba(0,0,0,.2);
+        }
+    }
+    .navbar-wrapper .navbar-toggler{
+        border:0;
+        line-height: 2;
+    }
+    .navbar-wrapper .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .navbar .nav-link{
+        font-family: Arial, Helvetica, sans-serif;
+        margin:0.4rem;
+        font-weight: 500;
+        font-size: 1.4rem;
+        color:white;
+        display: inline-block;
+        padding:0rem;
+    }
+  .hero {
+      /* background: linear-gradient(to right, #00a78e, #00695c); */
+      background: url("https://t4.ftcdn.net/jpg/03/09/24/63/360_F_309246316_uXQOS2tcdUceurcmAJprpxBbbktiSW0C.jpg");
+      /* background: url("https://t3.ftcdn.net/jpg/03/21/93/72/240_F_321937275_1CqRvcX55mYhXeRDls3M9OroSCosjXoa.jpg"); */
+width:100%;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: white;
+      padding-top: 200px;
+    padding-bottom: 60px;
+position: relative;
+   text-align: center;
+  }
+
+  .who .btn-zariya1{
+color:#ffffff;
+border-radius: 12px; 
+background-color: #558eff; 
+padding:8px 12px}
+.who .btn-zariya1:hover{
+background-color: white;
+color: #0048ff;
+border:1px solid #0000FF}
+  .hero .btn-zariya{
+    background-color:rgba(255, 255, 255, 0.874);
+    color:  rgb(12, 12, 60);
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 22px;
+    z-index: 9999;
+  }
+
+  .hero .btn-zariya:hover {
+      border: 1px solid#ffffff;
+      color:white;
+  }
+
+  .role-card {
+    border-radius: 16px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+.app-demo .card:hover{
+    transform: scale(1.07);
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0px 9px 16px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+
+}
+    .contact-section {
+      padding: 150px 0;
+    }
+
+    .contact-card {
+      background: white;
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    }
+
+    .contact-card h2 {
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .form-control, .btn {
+      border-radius: 10px;
+    }
+
+    .contact-info {
+      margin-top: 40px;
+    }
+
+    .contact-info h5 {
+      font-weight: 600;
+    }
+
+    .contact-info p {
+      margin-bottom: 10px;
+    }
+    .details{
+      display: flex;
+      
+  gap: 50px;
+  position: absolute;
+  top: -10px; /* overlaps */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index:2;
+
+    }
+    .details .card-custom{
+        box-shadow: 0 8px 20px  rgba(89, 89, 89, 0.786);
+        border-radius: 10px;
+
+    }
+    .contact-card{
+     background-color:  rgb(174, 239, 251);
+     border-radius: 0;
+     
+    }
+    .contact-section{
+      position: relative;
+      margin: 0;
+      background-image: url("https://img.freepik.com/free-photo/abstract-gradient-background-with-grainy-effect_84443-3075.jpg?semt=ais_hybrid&w=740") ;
+      background-position: center;
+      background-repeat: no-repeat;  
+    background-size: cover; }
+  /* .role-card:hover {
+    transform: translateY(-10px);
+  } */
+   .revenue-section {
+  padding: 80px 20px;
+  /* background: linear-gradient(135deg, #d1e5ff, #ffffff); */
+  text-align: center;
+  /* font-family: 'Segoe UI', sans-serif; */
+}
+.revenue-section .top{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap:30px;
+  align-items: baseline;
+}
+.revenue-section img{
+  height: 120px;
+  border-radius: 80px;
+}
+
+.section-title {
+  font-size: 36px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 50px;
+}
+
+.revenue-cards {
+  display: flex;
+
+  /* grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); */
+  gap: 40px;
+  margin: 0 auto;
+}
+
+.rev-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 30px 25px;
+}
+.rev-card:hover .overlay{
+    opacity: 1;
+}
+.rev-card:hover {
+    transform: rotate3d(-1, 1, 0, 30deg);
+}
+
+
+.rev-card i {
+  font-size: 32px;
+  color: #005cbe;
+  margin-bottom: 15px;
+}
+
+.rev-card h3 {
+  font-size: 29px;
+  color: #222;
+  margin-bottom: 10px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.rev-card p {
+  font-size: 20px;
+  color: #444;
+  line-height: 2em;
+}
+#card1{
+  background-image: url("https://img.freepik.com/free-vector/app-development-illustration_52683-47931.jpg?semt=ais_hybrid&w=740");
+  background-position: center;
+}
+#card2{
+  /* background-image: url("https://st5.depositphotos.com/9999814/76683/i/450/depositphotos_766830426-stock-photo-cost-reduction-cost-saving-concept.jpg"); */
+background-image: url("https://xpertsource.com/_next/image?url=https%3A%2F%2Fimages.xpertsource.com%2Fpublic%2Fblogs%2Fd67aeeed-8cfb-41d5-bd70-9b6f56782fd0%2Fhow-negotiate-commission-rate-real-estate.png&w=3840&q=75");
+  background-position: center;
+
+}
+#card3{
+  /* background-image: url("https://t4.ftcdn.net/jpg/02/40/85/41/360_F_240854108_Vq82NzFMZNqLEPZX3XUyu8yzRD3l1l3N.jpg"); */
+  background-position: center;
+  background-image: url("https://img.freepik.com/premium-photo/poor-people-with-dirty-shirt-rich-man-with-suits-shaking-hand_762686-3280.jpg");
+}
+#card4{
+  background-image: url("https://media.istockphoto.com/id/1202328192/photo/hands-of-poor-children-asking-for-help-india.jpg?s=612x612&w=0&k=20&c=j-jWpveToHbaFlIIwrDdTgmYU-QuYqjY-Tj1HMQpMfo=");
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    padding-top: 60px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    opacity: 0;
+    transition: all ease 0.6s;
+}
+.zariya-features {
+  background: #fff5f5;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.feature-wrapper {
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+}
+.phone-mockup img {
+  width: 350px;
+}
+
+/* Feature Cards Styling */
+.feature-card {
+  position: absolute;
+  width: 150px;
+  padding: 0.7rem;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  transform: scale(0.7);
+  transition:transform 0.3s ease;
+}
+.phone-mockup {
+  opacity: 0;
+  transform: translateY(70px);
+  transition: all 0.9s ease-out;
+}
+
+.phone-mockup.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.feature-card:hover {
+  transform: scale(1.05);
+}
+.feature-card img{
+width:70%;
+height: 70%;}
+
+/* Positioning */
+.top-left { top: 0; left: 10%; }
+.top-right { top: 0; right: 10%; }
+.mid-left { top: 35%; left: 0; }
+.mid-right { top: 35%; right: 0; }
+.bottom-left { bottom: 0; left: 15%; }
+.bottom-right { bottom: 0; right: 15%; }
+.phone-mockup {
+  margin: auto;
+  width: 420px;
+  position: relative;
+  z-index: 2;
+}
